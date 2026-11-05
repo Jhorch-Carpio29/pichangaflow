@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1680 800" width="1680" height="800" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif">
+<title>PichangaFlow · Eventos y conciertos</title>
+<defs><filter id="sombra" x="-10%" y="-10%" width="120%" height="140%"><feDropShadow dx="0" dy="1.5" stdDeviation="2" flood-color="#0F172A" flood-opacity="0.08"/></filter><symbol id="b-hono" viewBox="0 0 24 24"><path d="M12.445.002a45.529 45.529 0 0 0-5.252 8.146 8.595 8.595 0 0 1-.555-.53 27.796 27.796 0 0 0-1.205-1.542 8.762 8.762 0 0 0-1.251 2.12 20.743 20.743 0 0 0-1.448 5.88 8.867 8.867 0 0 0 .338 3.468c1.312 3.48 3.794 5.593 7.445 6.337 3.055.438 5.755-.333 8.097-2.312 2.677-2.59 3.359-5.634 2.047-9.132a33.287 33.287 0 0 0-2.988-5.59A91.34 91.34 0 0 0 12.615.053a.216.216 0 0 0-.17-.051Zm-.336 3.906a50.93 50.93 0 0 1 4.794 6.552c.448.767.817 1.57 1.108 2.41.606 2.386-.044 4.354-1.951 5.904-1.845 1.298-3.87 1.683-6.072 1.156-2.376-.737-3.75-2.335-4.121-4.794a5.107 5.107 0 0 1 .242-2.266c.358-.908.79-1.774 1.3-2.601l1.446-2.121a397.33 397.33 0 0 0 3.254-4.24Z"/></symbol><symbol id="g-building" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="2" width="16" height="20" rx="1"/><path d="M9 22v-4h6v4M8 6h2M14 6h2M8 10h2M14 10h2M8 14h2M14 14h2"/></symbol><symbol id="g-calendar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M3 9h18M8 2v4M16 2v4M7 13h3M7 17h3M14 13h3"/></symbol><symbol id="g-cash" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="6" width="20" height="12" rx="2"/><circle cx="12" cy="12" r="3"/><path d="M6 9v.01M18 15v.01"/></symbol><symbol id="g-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></symbol><symbol id="g-mail" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></symbol><symbol id="g-qr" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><path d="M14 14h3v3h-3zM18 18h3v3M14 21h1M21 14v1"/></symbol><symbol id="g-radio" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="2"/><path d="M8.5 8.5a5 5 0 0 0 0 7M15.5 8.5a5 5 0 0 1 0 7M5.6 5.6a9 9 0 0 0 0 12.8M18.4 5.6a9 9 0 0 1 0 12.8"/></symbol><symbol id="g-scan" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8V5a1 1 0 0 1 1-1h3M16 4h3a1 1 0 0 1 1 1v3M20 16v3a1 1 0 0 1-1 1h-3M8 20H5a1 1 0 0 1-1-1v-3"/><path d="M7 12h10"/></symbol><symbol id="g-user" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></symbol><marker id="m-B91C1C" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#B91C1C"/></marker><marker id="m-E8590C" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#E8590C"/></marker></defs>
+<rect width="1680" height="800" fill="#ffffff"/>
+<text x="40" y="52" font-size="28" fill="#0F172A" font-weight="800" text-anchor="start">PichangaFlow · Eventos y conciertos</text>
+<text x="40" y="80" font-size="14.5" fill="#475569" font-weight="400" text-anchor="start">Alquiler de canchas o de todo el complejo por uno o varios días. El QR en la puerta existe solo para conciertos.</text>
+<rect x="40" y="115" width="1600" height="300" rx="18" fill="#FAF8FF" stroke="#7C3AED" stroke-width="1.6"/>
+<rect x="60" y="100" width="386.0" height="30" rx="15" fill="#ffffff" stroke="#7C3AED" stroke-width="1.6"/>
+<text x="253.0" y="120.5" font-size="15" fill="#0F172A" font-weight="800" text-anchor="middle">A · Todos los eventos: alquiler por días</text>
+<rect x="80" y="165" width="280" height="112" rx="12" fill="#fff" stroke="#E2E8F0" stroke-width="1.3" filter="url(#sombra)"/>
+<rect x="92" y="177" width="40" height="40" rx="10" fill="#F1F5F9" stroke="none" stroke-width="0"/>
+<use href="#g-user" x="100" y="185" width="24" height="24" color="#0F172A"/>
+<text x="144" y="196" font-size="15" fill="#0F172A" font-weight="700" text-anchor="start">Solicitud</text>
+<text x="144" y="215" font-size="12.5" fill="#475569" font-weight="400" text-anchor="start">el cliente la envía o el</text>
+<text x="144" y="232" font-size="12.5" fill="#475569" font-weight="400" text-anchor="start">admin la registra</text>
+<text x="144" y="249" font-size="12.5" fill="#475569" font-weight="400" text-anchor="start">tipo, fechas, canchas</text>
+<rect x="270.2" y="155" width="79.8" height="20" rx="10.0" fill="#F1F5F9" stroke="#ffffff" stroke-width="1.5"/>
+<text x="310.09999999999997" y="168.5" font-size="11" fill="#334155" font-weight="700" text-anchor="middle">SOLICITADO</text>
+<circle cx="82" cy="165" r="13" fill="#E8590C" stroke="#ffffff" stroke-width="2.5"/>
+<text x="82" y="169.6" font-size="13.5" fill="#ffffff" font-weight="800" text-anchor="middle">1</text>
+<path d="M362 221 L386 221" fill="none" stroke="#E8590C" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#m-E8590C)"/>
+<rect x="390" y="165" width="280" height="112" rx="12" fill="#fff" stroke="#E2E8F0" stroke-width="1.3" filter="url(#sombra)"/>
+<rect x="402" y="177" width="40" height="40" rx="10" fill="#DBEAFE" stroke="none" stroke-width="0"/>
+<use href="#g-building" x="410" y="185" width="24" height="24" color="#1D4ED8"/>
+<text x="454" y="196" font-size="15" fill="#0F172A" font-weight="700" text-anchor="start">Revisar fechas</text>
+<text x="454" y="215" font-size="12.5" fill="#475569" font-weight="400" text-anchor="start">el admin ve las reservas</text>
+<text x="454" y="232" font-size="12.5" fill="#475569" font-weight="400" text-anchor="start">que chocan y las</text>
+<text x="454" y="249" font-size="12.5" fill="#475569" font-weight="400" text-anchor="start">reprograma o cancela</text>
+<circle cx="392" cy="165" r="13" fill="#E8590C" stroke="#ffffff" stroke-width="2.5"/>
+<text x="392" y="169.6" font-size="13.5" fill="#ffffff" font-weight="800" text-anchor="middle">2</text>
+<path d="M672 221 L696 221" fill="none" stroke="#E8590C" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#m-E8590C)"/>
+<rect x="700" y="165" width="280" height="112" rx="12" fill="#fff" stroke="#E2E8F0" stroke-width="1.3" filter="url(#sombra)"/>
+<rect x="712" y="177" width="40" height="40" rx="10" fill="#EDE9FE" stroke="none" stroke-width="0"/>
+<use href="#g-calendar" x="720" y="185" width="24" height="24" color="#6D28D9"/>
+<text x="764" y="196" font-size="15" fill="#0F172A" font-weight="700" text-anchor="start">Aprobar</text>
+<text x="764" y="215" font-size="12.5" fill="#475569" font-weight="400" text-anchor="start">calcula el total por día</text>
+<text x="764" y="232" font-size="12.5" fill="#475569" font-weight="400" text-anchor="start">aparta los días: morado</text>
+<text x="764" y="249" font-size="12.5" fill="#475569" font-weight="400" text-anchor="start">en el mapa</text>
+<rect x="902.96" y="155" width="67.03999999999999" height="20" rx="10.0" fill="#EDE9FE" stroke="#ffffff" stroke-width="1.5"/>
+<text x="936.48" y="168.5" font-size="11" fill="#6D28D9" font-weight="700" text-anchor="middle">APROBADO</text>
+<circle cx="702" cy="165" r="13" fill="#E8590C" stroke="#ffffff" stroke-width="2.5"/>
+<text x="702" y="169.6" font-size="13.5" fill="#ffffff" font-weight="800" text-anchor="middle">3</text>
+<path d="M982 221 L1006 221" fill="none" stroke="#E8590C" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#m-E8590C)"/>
+<rect x="1010" y="165" width="280" height="112" rx="12" fill="#fff" stroke="#E2E8F0" stroke-width="1.3" filter="url(#sombra)"/>
+<rect x="1022" y="177" width="40" height="40" rx="10" fill="#DCFCE7" stroke="none" stroke-width="0"/>
+<use href="#g-cash" x="1030" y="185" width="24" height="24" color="#15803D"/>
+<text x="1074" y="196" font-size="15" fill="#0F172A" font-weight="700" text-anchor="start">Adelanto</text>
+<text x="1074" y="215" font-size="12.5" fill="#475569" font-weight="400" text-anchor="start">cajero o admin lo registra</text>
+<text x="1074" y="232" font-size="12.5" fill="#475569" font-weight="400" text-anchor="start">en efectivo, Yape o Plin</text>
+<text x="1074" y="249" font-size="12.5" fill="#475569" font-weight="400" text-anchor="start">y luego el saldo</text>
+<rect x="1200.2" y="155" width="79.8" height="20" rx="10.0" fill="#DCFCE7" stroke="#ffffff" stroke-width="1.5"/>
+<text x="1240.1000000000001" y="168.5" font-size="11" fill="#15803D" font-weight="700" text-anchor="middle">CONFIRMADO</text>
+<circle cx="1012" cy="165" r="13" fill="#E8590C" stroke="#ffffff" stroke-width="2.5"/>
+<text x="1012" y="169.6" font-size="13.5" fill="#ffffff" font-weight="800" text-anchor="middle">4</text>
+<path d="M1292 221 L1316 221" fill="none" stroke="#E8590C" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#m-E8590C)"/>
+<rect x="1320" y="165" width="280" height="112" rx="12" fill="#fff" stroke="#E2E8F0" stroke-width="1.3" filter="url(#sombra)"/>
+<rect x="1332" y="177" width="40" height="40" rx="10" fill="#F1F5F9" stroke="none" stroke-width="0"/>
+<use href="#g-clock" x="1340" y="185" width="24" height="24" color="#334155"/>
+<text x="1384" y="196" font-size="15" fill="#0F172A" font-weight="700" text-anchor="start">El evento</text>
+<text x="1384" y="215" font-size="12.5" fill="#475569" font-weight="400" text-anchor="start">se realiza en sus días</text>
+<text x="1384" y="232" font-size="12.5" fill="#475569" font-weight="400" text-anchor="start">al terminar el último día</text>
+<text x="1384" y="249" font-size="12.5" fill="#475569" font-weight="400" text-anchor="start">se cierra solo</text>
+<rect x="1510.2" y="155" width="79.8" height="20" rx="10.0" fill="#F1F5F9" stroke="#ffffff" stroke-width="1.5"/>
+<text x="1550.1000000000001" y="168.5" font-size="11" fill="#334155" font-weight="700" text-anchor="middle">FINALIZADO</text>
+<circle cx="1322" cy="165" r="13" fill="#E8590C" stroke="#ffffff" stroke-width="2.5"/>
+<text x="1322" y="169.6" font-size="13.5" fill="#ffffff" font-weight="800" text-anchor="middle">5</text>
+<path d="M530 279 L530 322" fill="none" stroke="#B91C1C" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#m-B91C1C)"/>
+<rect x="460" y="326" width="140" height="40" rx="12" fill="#FEE2E2" stroke="#B91C1C" stroke-width="1.4"/>
+<text x="530" y="351" font-size="14" fill="#B91C1C" font-weight="800" text-anchor="middle">RECHAZADO</text>
+<path d="M1110 279 L1110 322" fill="none" stroke="#B91C1C" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#m-B91C1C)"/>
+<rect x="1040" y="326" width="140" height="40" rx="12" fill="#FEE2E2" stroke="#B91C1C" stroke-width="1.4"/>
+<text x="1110" y="351" font-size="14" fill="#B91C1C" font-weight="800" text-anchor="middle">CANCELADO</text>
+<text x="540" y="305" font-size="12" fill="#B91C1C" font-weight="600" text-anchor="start" paint-order="stroke" stroke="#ffffff" stroke-width="5" stroke-linejoin="round">el admin no acepta</text>
+<text x="1120" y="305" font-size="12" fill="#B91C1C" font-weight="600" text-anchor="start" paint-order="stroke" stroke="#ffffff" stroke-width="5" stroke-linejoin="round">vence el plazo</text>
+<text x="80" y="325" font-size="13" fill="#0F172A" font-weight="700" text-anchor="start">Tipos de evento:</text>
+<text x="80" y="345" font-size="12.5" fill="#475569" font-weight="400" text-anchor="start">campeonato · concierto · corporativo</text>
+<text x="80" y="362" font-size="12.5" fill="#475569" font-weight="400" text-anchor="start">celebración · otro</text>
+<rect x="40" y="490" width="1600" height="245" rx="18" fill="#FFFBF7" stroke="#E8590C" stroke-width="1.6"/>
+<rect x="60" y="475" width="197.0" height="30" rx="15" fill="#ffffff" stroke="#E8590C" stroke-width="1.6"/>
+<text x="158.5" y="495.5" font-size="15" fill="#0F172A" font-weight="800" text-anchor="middle">B · Solo conciertos</text>
+<path d="M1250 279 L1250 450 L320 450 L320 536" fill="none" stroke="#E8590C" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#m-E8590C)"/>
+<text x="800" y="442" font-size="13" fill="#9A3412" font-weight="700" text-anchor="middle" paint-order="stroke" stroke="#ffffff" stroke-width="5" stroke-linejoin="round">solo si el evento es un concierto</text>
+<rect x="80" y="540" width="280" height="112" rx="12" fill="#fff" stroke="#E2E8F0" stroke-width="1.3" filter="url(#sombra)"/>
+<rect x="92" y="552" width="40" height="40" rx="10" fill="#FFEDD5" stroke="none" stroke-width="0"/>
+<use href="#g-qr" x="100" y="560" width="24" height="24" color="#C2410C"/>
+<text x="144" y="571" font-size="15" fill="#0F172A" font-weight="700" text-anchor="start">Generar entradas</text>
+<text x="144" y="590" font-size="12.5" fill="#475569" font-weight="400" text-anchor="start">el admin define tipos</text>
+<text x="144" y="607" font-size="12.5" fill="#475569" font-weight="400" text-anchor="start">(General, VIP) y aforo</text>
+<text x="144" y="624" font-size="12.5" fill="#475569" font-weight="400" text-anchor="start">cada una con QR único</text>
+<circle cx="82" cy="540" r="13" fill="#E8590C" stroke="#ffffff" stroke-width="2.5"/>
+<text x="82" y="544.6" font-size="13.5" fill="#ffffff" font-weight="800" text-anchor="middle">1</text>
+<path d="M362 596 L386 596" fill="none" stroke="#E8590C" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#m-E8590C)"/>
+<rect x="390" y="540" width="280" height="112" rx="12" fill="#fff" stroke="#E2E8F0" stroke-width="1.3" filter="url(#sombra)"/>
+<rect x="402" y="552" width="40" height="40" rx="10" fill="#FFEDD5" stroke="none" stroke-width="0"/>
+<use href="#g-mail" x="410" y="560" width="24" height="24" color="#C2410C"/>
+<text x="454" y="571" font-size="15" fill="#0F172A" font-weight="700" text-anchor="start">Entregar</text>
+<text x="454" y="590" font-size="12.5" fill="#475569" font-weight="400" text-anchor="start">el organizador descarga</text>
+<text x="454" y="607" font-size="12.5" fill="#475569" font-weight="400" text-anchor="start">el archivo de entradas</text>
+<text x="454" y="624" font-size="12.5" fill="#475569" font-weight="400" text-anchor="start">y las reparte</text>
+<circle cx="392" cy="540" r="13" fill="#E8590C" stroke="#ffffff" stroke-width="2.5"/>
+<text x="392" y="544.6" font-size="13.5" fill="#ffffff" font-weight="800" text-anchor="middle">2</text>
+<path d="M672 596 L696 596" fill="none" stroke="#E8590C" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#m-E8590C)"/>
+<rect x="700" y="540" width="280" height="112" rx="12" fill="#fff" stroke="#E2E8F0" stroke-width="1.3" filter="url(#sombra)"/>
+<rect x="712" y="552" width="40" height="40" rx="10" fill="#EDE9FE" stroke="none" stroke-width="0"/>
+<use href="#g-scan" x="720" y="560" width="24" height="24" color="#7C3AED"/>
+<text x="764" y="571" font-size="15" fill="#0F172A" font-weight="700" text-anchor="start">Escanear</text>
+<text x="764" y="590" font-size="12.5" fill="#475569" font-weight="400" text-anchor="start">el garitero usa la cámara</text>
+<text x="764" y="607" font-size="12.5" fill="#475569" font-weight="400" text-anchor="start">o digita el código</text>
+<text x="764" y="624" font-size="12.5" fill="#475569" font-weight="400" text-anchor="start">en la puerta</text>
+<circle cx="702" cy="540" r="13" fill="#E8590C" stroke="#ffffff" stroke-width="2.5"/>
+<text x="702" y="544.6" font-size="13.5" fill="#ffffff" font-weight="800" text-anchor="middle">3</text>
+<path d="M982 596 L1006 596" fill="none" stroke="#E8590C" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#m-E8590C)"/>
+<rect x="1010" y="540" width="280" height="112" rx="12" fill="#fff" stroke="#E2E8F0" stroke-width="1.3" filter="url(#sombra)"/>
+<rect x="1022" y="552" width="40" height="40" rx="10" fill="#FFEDD5" stroke="none" stroke-width="0"/>
+<use href="#b-hono" x="1030" y="560" width="24" height="24" fill="#E36002"/>
+<text x="1074" y="571" font-size="15" fill="#0F172A" font-weight="700" text-anchor="start">Validar</text>
+<text x="1074" y="590" font-size="12.5" fill="#475569" font-weight="400" text-anchor="start">el back revisa en la base</text>
+<text x="1074" y="607" font-size="12.5" fill="#475569" font-weight="400" text-anchor="start">una entrada sirve</text>
+<text x="1074" y="624" font-size="12.5" fill="#475569" font-weight="400" text-anchor="start">una sola vez</text>
+<circle cx="1012" cy="540" r="13" fill="#E8590C" stroke="#ffffff" stroke-width="2.5"/>
+<text x="1012" y="544.6" font-size="13.5" fill="#ffffff" font-weight="800" text-anchor="middle">4</text>
+<path d="M1292 596 L1316 596" fill="none" stroke="#E8590C" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#m-E8590C)"/>
+<rect x="1320" y="540" width="280" height="112" rx="12" fill="#fff" stroke="#E2E8F0" stroke-width="1.3" filter="url(#sombra)"/>
+<rect x="1332" y="552" width="40" height="40" rx="10" fill="#EDE9FE" stroke="none" stroke-width="0"/>
+<use href="#g-radio" x="1340" y="560" width="24" height="24" color="#6D28D9"/>
+<text x="1384" y="571" font-size="15" fill="#0F172A" font-weight="700" text-anchor="start">Aforo en vivo</text>
+<text x="1384" y="590" font-size="12.5" fill="#475569" font-weight="400" text-anchor="start">admin y gariteros ven</text>
+<text x="1384" y="607" font-size="12.5" fill="#475569" font-weight="400" text-anchor="start">usadas y disponibles</text>
+<text x="1384" y="624" font-size="12.5" fill="#475569" font-weight="400" text-anchor="start">(tiempo real)</text>
+<circle cx="1322" cy="540" r="13" fill="#E8590C" stroke="#ffffff" stroke-width="2.5"/>
+<text x="1322" y="544.6" font-size="13.5" fill="#ffffff" font-weight="800" text-anchor="middle">5</text>
+<text x="80" y="690" font-size="14" fill="#0F172A" font-weight="700" text-anchor="start">Las reservas de cancha y los demás eventos no usan QR.</text>
+<text x="1010" y="680" font-size="13" fill="#B91C1C" font-weight="700" text-anchor="start">Rechaza con motivo:</text>
+<text x="1010" y="700" font-size="12.5" fill="#B91C1C" font-weight="400" text-anchor="start">ya usada, anulada, otro evento u otra fecha.</text>
+<text x="40" y="770" font-size="12" fill="#64748B" font-weight="400" text-anchor="start" font-style="italic">Al aprobar, el evento crea reservas internas para cada cancha: la misma regla EXCLUDE impide que se cruce con los turnos.</text>
+</svg>

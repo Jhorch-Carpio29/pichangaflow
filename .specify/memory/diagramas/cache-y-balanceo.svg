@@ -1,0 +1,232 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1680 1180" width="1680" height="1180" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif">
+<title>PichangaFlow · Caché y balanceo</title>
+<defs><filter id="sombra" x="-10%" y="-10%" width="120%" height="140%"><feDropShadow dx="0" dy="1.5" stdDeviation="2" flood-color="#0F172A" flood-opacity="0.08"/></filter><symbol id="b-cloudflare" viewBox="0 0 24 24"><path d="M16.5088 16.8447c.1475-.5068.0908-.9707-.1553-1.3154-.2246-.3164-.6045-.499-1.0615-.5205l-8.6592-.1123a.1559.1559 0 0 1-.1333-.0713c-.0283-.042-.0351-.0986-.021-.1553.0278-.084.1123-.1484.2036-.1562l8.7359-.1123c1.0351-.0489 2.1601-.8868 2.5537-1.9136l.499-1.3013c.0215-.0561.0293-.1128.0147-.168-.5625-2.5463-2.835-4.4453-5.5499-4.4453-2.5039 0-4.6284 1.6177-5.3876 3.8614-.4927-.3658-1.1187-.5625-1.794-.499-1.2026.119-2.1665 1.083-2.2861 2.2856-.0283.31-.0069.6128.0635.894C1.5683 13.171 0 14.7754 0 16.752c0 .1748.0142.3515.0352.5273.0141.083.0844.1475.1689.1475h15.9814c.0909 0 .1758-.0645.2032-.1553l.12-.4268zm2.7568-5.5634c-.0771 0-.1611 0-.2383.0112-.0566 0-.1054.0415-.127.0976l-.3378 1.1744c-.1475.5068-.0918.9707.1543 1.3164.2256.3164.6055.498 1.0625.5195l1.8437.1133c.0557 0 .1055.0263.1329.0703.0283.043.0351.1074.0214.1562-.0283.084-.1132.1485-.204.1553l-1.921.1123c-1.041.0488-2.1582.8867-2.5527 1.914l-.1406.3585c-.0283.0713.0215.1416.0986.1416h6.5977c.0771 0 .1474-.0489.169-.126.1122-.4082.1757-.837.1757-1.2803 0-2.6025-2.125-4.727-4.7344-4.727"/></symbol><symbol id="b-cloudflareworkers" viewBox="0 0 24 24"><path d="m8.213.063 8.879 12.136-8.67 11.739h2.476l8.665-11.735-8.89-12.14Zm4.728 0 9.02 11.992-9.018 11.883h2.496L24 12.656v-1.199L15.434.063ZM7.178 2.02.01 11.398l-.01 1.2 7.203 9.644 1.238-1.676-6.396-8.556 6.361-8.313Z"/></symbol><symbol id="b-hono" viewBox="0 0 24 24"><path d="M12.445.002a45.529 45.529 0 0 0-5.252 8.146 8.595 8.595 0 0 1-.555-.53 27.796 27.796 0 0 0-1.205-1.542 8.762 8.762 0 0 0-1.251 2.12 20.743 20.743 0 0 0-1.448 5.88 8.867 8.867 0 0 0 .338 3.468c1.312 3.48 3.794 5.593 7.445 6.337 3.055.438 5.755-.333 8.097-2.312 2.677-2.59 3.359-5.634 2.047-9.132a33.287 33.287 0 0 0-2.988-5.59A91.34 91.34 0 0 0 12.615.053a.216.216 0 0 0-.17-.051Zm-.336 3.906a50.93 50.93 0 0 1 4.794 6.552c.448.767.817 1.57 1.108 2.41.606 2.386-.044 4.354-1.951 5.904-1.845 1.298-3.87 1.683-6.072 1.156-2.376-.737-3.75-2.335-4.121-4.794a5.107 5.107 0 0 1 .242-2.266c.358-.908.79-1.774 1.3-2.601l1.446-2.121a397.33 397.33 0 0 0 3.254-4.24Z"/></symbol><symbol id="b-neon" viewBox="0 0 24 24"><path d="M24 0V24l-9.365-8.045V24H0V0ZM2.942 21.087h8.751V9.563l9.365 8.204V2.919L2.942 2.914Z"/></symbol><symbol id="b-postgresql" viewBox="0 0 24 24"><path d="M23.5594 14.7228a.5269.5269 0 0 0-.0563-.1191c-.139-.2632-.4768-.3418-1.0074-.2321-1.6533.3411-2.2935.1312-2.5256-.0191 1.342-2.0482 2.445-4.522 3.0411-6.8297.2714-1.0507.7982-3.5237.1222-4.7316a1.5641 1.5641 0 0 0-.1509-.235C21.6931.9086 19.8007.0248 17.5099.0005c-1.4947-.0158-2.7705.3461-3.1161.4794a9.449 9.449 0 0 0-.5159-.0816 8.044 8.044 0 0 0-1.3114-.1278c-1.1822-.0184-2.2038.2642-3.0498.8406-.8573-.3211-4.7888-1.645-7.2219.0788C.9359 2.1526.3086 3.8733.4302 6.3043c.0409.818.5069 3.334 1.2423 5.7436.4598 1.5065.9387 2.7019 1.4334 3.582.553.9942 1.1259 1.5933 1.7143 1.7895.4474.1491 1.1327.1441 1.8581-.7279.8012-.9635 1.5903-1.8258 1.9446-2.2069.4351.2355.9064.3625 1.39.3772a.0569.0569 0 0 0 .0004.0041 11.0312 11.0312 0 0 0-.2472.3054c-.3389.4302-.4094.5197-1.5002.7443-.3102.064-1.1344.2339-1.1464.8115-.0025.1224.0329.2309.0919.3268.2269.4231.9216.6097 1.015.6331 1.3345.3335 2.5044.092 3.3714-.6787-.017 2.231.0775 4.4174.3454 5.0874.2212.5529.7618 1.9045 2.4692 1.9043.2505 0 .5263-.0291.8296-.0941 1.7819-.3821 2.5557-1.1696 2.855-2.9059.1503-.8707.4016-2.8753.5388-4.1012.0169-.0703.0357-.1207.057-.1362.0007-.0005.0697-.0471.4272.0307a.3673.3673 0 0 0 .0443.0068l.2539.0223.0149.001c.8468.0384 1.9114-.1426 2.5312-.4308.6438-.2988 1.8057-1.0323 1.5951-1.6698zM2.371 11.8765c-.7435-2.4358-1.1779-4.8851-1.2123-5.5719-.1086-2.1714.4171-3.6829 1.5623-4.4927 1.8367-1.2986 4.8398-.5408 6.108-.13-.0032.0032-.0066.0061-.0098.0094-2.0238 2.044-1.9758 5.536-1.9708 5.7495-.0002.0823.0066.1989.0162.3593.0348.5873.0996 1.6804-.0735 2.9184-.1609 1.1504.1937 2.2764.9728 3.0892.0806.0841.1648.1631.2518.2374-.3468.3714-1.1004 1.1926-1.9025 2.1576-.5677.6825-.9597.5517-1.0886.5087-.3919-.1307-.813-.5871-1.2381-1.3223-.4796-.839-.9635-2.0317-1.4155-3.5126zm6.0072 5.0871c-.1711-.0428-.3271-.1132-.4322-.1772.0889-.0394.2374-.0902.4833-.1409 1.2833-.2641 1.4815-.4506 1.9143-1.0002.0992-.126.2116-.2687.3673-.4426a.3549.3549 0 0 0 .0737-.1298c.1708-.1513.2724-.1099.4369-.0417.156.0646.3078.26.3695.4752.0291.1016.0619.2945-.0452.4444-.9043 1.2658-2.2216 1.2494-3.1676 1.0128zm2.094-3.988-.0525.141c-.133.3566-.2567.6881-.3334 1.003-.6674-.0021-1.3168-.2872-1.8105-.8024-.6279-.6551-.9131-1.5664-.7825-2.5004.1828-1.3079.1153-2.4468.079-3.0586-.005-.0857-.0095-.1607-.0122-.2199.2957-.2621 1.6659-.9962 2.6429-.7724.4459.1022.7176.4057.8305.928.5846 2.7038.0774 3.8307-.3302 4.7363-.084.1866-.1633.3629-.2311.5454zm7.3637 4.5725c-.0169.1768-.0358.376-.0618.5959l-.146.4383a.3547.3547 0 0 0-.0182.1077c-.0059.4747-.054.6489-.115.8693-.0634.2292-.1353.4891-.1794 1.0575-.11 1.4143-.8782 2.2267-2.4172 2.5565-1.5155.3251-1.7843-.4968-2.0212-1.2217a6.5824 6.5824 0 0 0-.0769-.2266c-.2154-.5858-.1911-1.4119-.1574-2.5551.0165-.5612-.0249-1.9013-.3302-2.6462.0044-.2932.0106-.5909.019-.8918a.3529.3529 0 0 0-.0153-.1126 1.4927 1.4927 0 0 0-.0439-.208c-.1226-.4283-.4213-.7866-.7797-.9351-.1424-.059-.4038-.1672-.7178-.0869.067-.276.1831-.5875.309-.9249l.0529-.142c.0595-.16.134-.3257.213-.5012.4265-.9476 1.0106-2.2453.3766-5.1772-.2374-1.0981-1.0304-1.6343-2.2324-1.5098-.7207.0746-1.3799.3654-1.7088.5321a5.6716 5.6716 0 0 0-.1958.1041c.0918-1.1064.4386-3.1741 1.7357-4.4823a4.0306 4.0306 0 0 1 .3033-.276.3532.3532 0 0 0 .1447-.0644c.7524-.5706 1.6945-.8506 2.802-.8325.4091.0067.8017.0339 1.1742.081 1.939.3544 3.2439 1.4468 4.0359 2.3827.8143.9623 1.2552 1.9315 1.4312 2.4543-1.3232-.1346-2.2234.1268-2.6797.779-.9926 1.4189.543 4.1729 1.2811 5.4964.1353.2426.2522.4522.2889.5413.2403.5825.5515.9713.7787 1.2552.0696.087.1372.1714.1885.245-.4008.1155-1.1208.3825-1.0552 1.717-.0123.1563-.0423.4469-.0834.8148-.0461.2077-.0702.4603-.0994.7662zm.8905-1.6211c-.0405-.8316.2691-.9185.5967-1.0105a2.8566 2.8566 0 0 0 .135-.0406 1.202 1.202 0 0 0 .1342.103c.5703.3765 1.5823.4213 3.0068.1344-.2016.1769-.5189.3994-.9533.6011-.4098.1903-1.0957.333-1.7473.3636-.7197.0336-1.0859-.0807-1.1721-.151zm.5695-9.2712c-.0059.3508-.0542.6692-.1054 1.0017-.055.3576-.112.7274-.1264 1.1762-.0142.4368.0404.8909.0932 1.3301.1066.887.216 1.8003-.2075 2.7014a3.5272 3.5272 0 0 1-.1876-.3856c-.0527-.1276-.1669-.3326-.3251-.6162-.6156-1.1041-2.0574-3.6896-1.3193-4.7446.3795-.5427 1.3408-.5661 2.1781-.463zm.2284 7.0137a12.3762 12.3762 0 0 0-.0853-.1074l-.0355-.0444c.7262-1.1995.5842-2.3862.4578-3.4385-.0519-.4318-.1009-.8396-.0885-1.2226.0129-.4061.0666-.7543.1185-1.0911.0639-.415.1288-.8443.1109-1.3505.0134-.0531.0188-.1158.0118-.1902-.0457-.4855-.5999-1.938-1.7294-3.253-.6076-.7073-1.4896-1.4972-2.6889-2.0395.5251-.1066 1.2328-.2035 2.0244-.1859 2.0515.0456 3.6746.8135 4.8242 2.2824a.908.908 0 0 1 .0667.1002c.7231 1.3556-.2762 6.2751-2.9867 10.5405zm-8.8166-6.1162c-.025.1794-.3089.4225-.6211.4225a.5821.5821 0 0 1-.0809-.0056c-.1873-.026-.3765-.144-.5059-.3156-.0458-.0605-.1203-.178-.1055-.2844.0055-.0401.0261-.0985.0925-.1488.1182-.0894.3518-.1226.6096-.0867.3163.0441.6426.1938.6113.4186zm7.9305-.4114c.0111.0792-.049.201-.1531.3102-.0683.0717-.212.1961-.4079.2232a.5456.5456 0 0 1-.075.0052c-.2935 0-.5414-.2344-.5607-.3717-.024-.1765.2641-.3106.5611-.352.297-.0414.6111.0088.6356.1851z"/></symbol><symbol id="b-pwa" viewBox="0 0 24 24"><path d="M20.5967 7.482L24 16.518h-2.5098l-.5816-1.6184h-3.2452l.6933-1.7532h2.0019l-.95-2.6597 1.1881-3.0047zm-8.111 0l1.7722 5.8393L16.75 7.482h2.4154l-3.6433 9.036h-2.3833l-1.6395-5.2366-1.7196 5.2366h-2.377l-1.233-2.1161 1.2144-3.7415 1.342 2.6609 1.9029-5.8393h1.8566zm-8.7453 0c1.0635 0 1.8713.3055 2.4234.9166a2.647 2.647 0 01.2806.3684l-1.0753 3.3128-.3847 1.1854c-.352.1006-.7533.1509-1.204.1509H2.2928v3.102H0V7.482zm-.5816 1.7532h-.866v2.4276h.8597c.5577 0 .9406-.1194 1.1485-.3582.1896-.215.2845-.5058.2845-.8724 0-.364-.1079-.6544-.3235-.8714-.2157-.217-.5834-.3256-1.1032-.3256z"/></symbol><symbol id="b-upstash" viewBox="0 0 24 24"><path d="M13.8027 0C11.193 0 8.583.9952 6.5918 2.9863c-3.9823 3.9823-3.9823 10.4396 0 14.4219 1.9911 1.9911 5.2198 1.9911 7.211 0 1.991-1.9911 1.991-5.2198 0-7.211L12 12c.9956.9956.9956 2.6098 0 3.6055-.9956.9955-2.6099.9955-3.6055 0-2.9866-2.9868-2.9866-7.8297 0-10.8164 2.9868-2.9868 7.8297-2.9868 10.8164 0l1.8028-1.8028C19.0225.9952 16.4125 0 13.8027 0zM12 12c-.9956-.9956-.9956-2.6098 0-3.6055.9956-.9955 2.6098-.9955 3.6055 0 2.9867 2.9868 2.9867 7.8297 0 10.8164-2.9867 2.9868-7.8297 2.9868-10.8164 0l-1.8028 1.8028c3.9823 3.9822 10.4396 3.9822 14.4219 0 3.9823-3.9824 3.9823-10.4396 0-14.4219-.9956-.9956-2.3006-1.4922-3.6055-1.4922-1.3048 0-2.6099.4966-3.6054 1.4922-1.9912 1.9912-1.9912 5.2198 0 7.211z"/></symbol><symbol id="g-key" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="15" r="4"/><path d="M11 12l9-9M17 6l3 3M14 9l2 2"/></symbol><symbol id="g-plug" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 2v5M15 2v5M6 7h12v4a6 6 0 0 1-12 0z"/><path d="M12 17v5"/></symbol><symbol id="g-radio" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="2"/><path d="M8.5 8.5a5 5 0 0 0 0 7M15.5 8.5a5 5 0 0 1 0 7M5.6 5.6a9 9 0 0 0 0 12.8M18.4 5.6a9 9 0 0 1 0 12.8"/></symbol><symbol id="g-split" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="4" r="2"/><path d="M12 6v5M12 11l-6 5v4M12 11l6 5v4"/><circle cx="6" cy="21" r="1"/><circle cx="18" cy="21" r="1"/></symbol><symbol id="g-user" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></symbol><marker id="m-15803D" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#15803D"/></marker><marker id="ms-15803D" viewBox="0 0 10 10" refX="1.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#15803D"/></marker><marker id="m-16A34A" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#16A34A"/></marker><marker id="ms-16A34A" viewBox="0 0 10 10" refX="1.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#16A34A"/></marker><marker id="m-334155" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#334155"/></marker><marker id="ms-334155" viewBox="0 0 10 10" refX="1.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#334155"/></marker><marker id="m-64748B" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#64748B"/></marker><marker id="ms-64748B" viewBox="0 0 10 10" refX="1.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#64748B"/></marker><marker id="m-7C3AED" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#7C3AED"/></marker><marker id="ms-7C3AED" viewBox="0 0 10 10" refX="1.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#7C3AED"/></marker><marker id="m-94A3B8" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#94A3B8"/></marker><marker id="ms-94A3B8" viewBox="0 0 10 10" refX="1.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#94A3B8"/></marker><marker id="m-B91C1C" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#B91C1C"/></marker><marker id="ms-B91C1C" viewBox="0 0 10 10" refX="1.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#B91C1C"/></marker><marker id="m-E8590C" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#E8590C"/></marker><marker id="ms-E8590C" viewBox="0 0 10 10" refX="1.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#E8590C"/></marker></defs>
+<rect width="1680" height="1180" fill="#ffffff"/>
+<text x="40" y="52" font-size="28" fill="#0F172A" font-weight="800" text-anchor="start">PichangaFlow · Caché y balanceo</text>
+<text x="40" y="80" font-size="14.5" fill="#475569" font-weight="400" text-anchor="start">Dónde se guarda cada dato, cuánto dura y cómo se reparte la carga. Así se aguantan 1,000–2,000 usuarios sin tumbar la base.</text>
+<rect x="40" y="115" width="1600" height="395" rx="18" fill="#F8FBFF" stroke="#3B82F6" stroke-width="1.6"/>
+<rect x="60" y="100" width="476.0" height="30" rx="15" fill="#ffffff" stroke="#3B82F6" stroke-width="1.6"/>
+<text x="298.0" y="120.5" font-size="15" fill="#0F172A" font-weight="800" text-anchor="middle">A · Lectura: «¿está libre la cancha 3 a las 7 pm?»</text>
+<text x="60" y="150" font-size="12.5" fill="#64748B" font-weight="400" text-anchor="start" font-style="italic">La petición avanza a la derecha solo si el nivel anterior no tiene el dato. Si lo tiene, responde ahí mismo (flecha verde).</text>
+<rect x="42" y="190" width="180" height="170" rx="12" fill="#ffffff" stroke="#E2E8F0" stroke-width="1.3" filter="url(#sombra)"/>
+<rect x="54" y="202" width="40" height="40" rx="10" fill="#EDE9FE" stroke="none" stroke-width="0"/>
+<use href="#b-pwa" x="62.0" y="210.0" width="24" height="24" fill="#5A0FC8"/>
+<text x="54" y="264" font-size="14.5" fill="#0F172A" font-weight="700" text-anchor="start">Navegador</text>
+<text x="54" y="285.0" font-size="12" fill="#475569" font-weight="400" text-anchor="start">JS, CSS, fotos, logo</text>
+<text x="54" y="301.5" font-size="12" fill="#475569" font-weight="400" text-anchor="start">dura: días; cambia el</text>
+<text x="54" y="318.0" font-size="12" fill="#475569" font-weight="400" text-anchor="start">nombre al desplegar</text>
+<rect x="151.34" y="180" width="60.66" height="20" rx="10.0" fill="#DBEAFE" stroke="#ffffff" stroke-width="1.5"/>
+<text x="181.67000000000002" y="193.5" font-size="11" fill="#1D4ED8" font-weight="700" text-anchor="middle">caché 1</text>
+<path d="M224 230 L241 230" fill="none" stroke="#E8590C" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#m-E8590C)"/>
+<path d="M132.0 362 L132.0 400" fill="none" stroke="#16A34A" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#m-16A34A)"/>
+<rect x="74.0" y="402" width="116" height="24" rx="12" fill="#DCFCE7" stroke="#86EFAC"/>
+<text x="132.0" y="418" font-size="11.5" fill="#15803D" font-weight="700" text-anchor="middle">lo tiene: responde</text>
+<rect x="244" y="190" width="180" height="170" rx="12" fill="#ffffff" stroke="#E2E8F0" stroke-width="1.3" filter="url(#sombra)"/>
+<rect x="256" y="202" width="40" height="40" rx="10" fill="#FFEDD5" stroke="none" stroke-width="0"/>
+<use href="#b-cloudflare" x="264.0" y="210.0" width="24" height="24" fill="#F38020"/>
+<text x="256" y="264" font-size="14.5" fill="#0F172A" font-weight="700" text-anchor="start">CDN Cloudflare</text>
+<text x="256" y="285.0" font-size="12" fill="#475569" font-weight="400" text-anchor="start">páginas públicas</text>
+<text x="256" y="301.5" font-size="12" fill="#475569" font-weight="400" text-anchor="start">y archivos estáticos</text>
+<text x="256" y="318.0" font-size="12" fill="#475569" font-weight="400" text-anchor="start">dura: horas; se purga</text>
+<text x="256" y="334.5" font-size="12" fill="#475569" font-weight="400" text-anchor="start">en cada despliegue</text>
+<rect x="353.34000000000003" y="180" width="60.66" height="20" rx="10.0" fill="#DBEAFE" stroke="#ffffff" stroke-width="1.5"/>
+<text x="383.67" y="193.5" font-size="11" fill="#1D4ED8" font-weight="700" text-anchor="middle">caché 2</text>
+<path d="M426 230 L443 230" fill="none" stroke="#E8590C" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#m-E8590C)"/>
+<path d="M334.0 362 L334.0 400" fill="none" stroke="#16A34A" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#m-16A34A)"/>
+<rect x="276.0" y="402" width="116" height="24" rx="12" fill="#DCFCE7" stroke="#86EFAC"/>
+<text x="334.0" y="418" font-size="11.5" fill="#15803D" font-weight="700" text-anchor="middle">lo tiene: responde</text>
+<rect x="446" y="190" width="180" height="170" rx="12" fill="#ffffff" stroke="#E2E8F0" stroke-width="1.3" filter="url(#sombra)"/>
+<rect x="458" y="202" width="40" height="40" rx="10" fill="#FFEDD5" stroke="none" stroke-width="0"/>
+<use href="#g-split" x="466.0" y="210.0" width="24" height="24" color="#C2410C"/>
+<text x="458" y="264" font-size="14.5" fill="#0F172A" font-weight="700" text-anchor="start">Balanceador</text>
+<text x="458" y="285.0" font-size="12" fill="#475569" font-weight="400" text-anchor="start">no guarda datos</text>
+<text x="458" y="301.5" font-size="12" fill="#475569" font-weight="400" text-anchor="start">elige un origen sano</text>
+<text x="458" y="318.0" font-size="12" fill="#475569" font-weight="400" text-anchor="start">del grupo back</text>
+<rect x="561.72" y="180" width="54.279999999999994" height="20" rx="10.0" fill="#EDE9FE" stroke="#ffffff" stroke-width="1.5"/>
+<text x="588.86" y="193.5" font-size="11" fill="#6D28D9" font-weight="700" text-anchor="middle">bal. 2</text>
+<path d="M628 230 L645 230" fill="none" stroke="#E8590C" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#m-E8590C)"/>
+<rect x="648" y="190" width="180" height="170" rx="12" fill="#ffffff" stroke="#E2E8F0" stroke-width="1.3" filter="url(#sombra)"/>
+<rect x="660" y="202" width="40" height="40" rx="10" fill="#FFEDD5" stroke="none" stroke-width="0"/>
+<use href="#b-hono" x="668.0" y="210.0" width="24" height="24" fill="#E36002"/>
+<text x="660" y="264" font-size="14.5" fill="#0F172A" font-weight="700" text-anchor="start">Worker back</text>
+<text x="660" y="285.0" font-size="12" fill="#475569" font-weight="400" text-anchor="start">empresa del subdominio</text>
+<text x="660" y="301.5" font-size="12" fill="#475569" font-weight="400" text-anchor="start">respuestas repetidas</text>
+<text x="660" y="318.0" font-size="12" fill="#475569" font-weight="400" text-anchor="start">dura: segundos</text>
+<text x="660" y="334.5" font-size="12" fill="#475569" font-weight="400" text-anchor="start">(memoria + Cache API)</text>
+<rect x="757.34" y="180" width="60.66" height="20" rx="10.0" fill="#DBEAFE" stroke="#ffffff" stroke-width="1.5"/>
+<text x="787.6700000000001" y="193.5" font-size="11" fill="#1D4ED8" font-weight="700" text-anchor="middle">caché 3</text>
+<rect x="697.0600000000001" y="180" width="54.279999999999994" height="20" rx="10.0" fill="#EDE9FE" stroke="#ffffff" stroke-width="1.5"/>
+<text x="724.2" y="193.5" font-size="11" fill="#6D28D9" font-weight="700" text-anchor="middle">bal. 3</text>
+<path d="M830 230 L847 230" fill="none" stroke="#E8590C" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#m-E8590C)"/>
+<path d="M738.0 362 L738.0 400" fill="none" stroke="#16A34A" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#m-16A34A)"/>
+<rect x="680.0" y="402" width="116" height="24" rx="12" fill="#DCFCE7" stroke="#86EFAC"/>
+<text x="738.0" y="418" font-size="11.5" fill="#15803D" font-weight="700" text-anchor="middle">lo tiene: responde</text>
+<rect x="850" y="190" width="180" height="170" rx="12" fill="#ffffff" stroke="#E2E8F0" stroke-width="1.3" filter="url(#sombra)"/>
+<rect x="862" y="202" width="40" height="40" rx="10" fill="#FFEDD5" stroke="none" stroke-width="0"/>
+<use href="#g-key" x="870.0" y="210.0" width="24" height="24" color="#C2410C"/>
+<text x="862" y="264" font-size="14.5" fill="#0F172A" font-weight="700" text-anchor="start">Workers KV</text>
+<text x="862" y="285.0" font-size="12" fill="#475569" font-weight="400" text-anchor="start">tarifas, feriados,</text>
+<text x="862" y="301.5" font-size="12" fill="#475569" font-weight="400" text-anchor="start">horarios, configuración</text>
+<text x="862" y="318.0" font-size="12" fill="#475569" font-weight="400" text-anchor="start">dura: ~60 s o hasta</text>
+<text x="862" y="334.5" font-size="12" fill="#475569" font-weight="400" text-anchor="start">que el admin la cambie</text>
+<rect x="959.34" y="180" width="60.66" height="20" rx="10.0" fill="#DBEAFE" stroke="#ffffff" stroke-width="1.5"/>
+<text x="989.6700000000001" y="193.5" font-size="11" fill="#1D4ED8" font-weight="700" text-anchor="middle">caché 4</text>
+<path d="M1032 230 L1049 230" fill="none" stroke="#E8590C" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#m-E8590C)"/>
+<path d="M940.0 362 L940.0 400" fill="none" stroke="#16A34A" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#m-16A34A)"/>
+<rect x="882.0" y="402" width="116" height="24" rx="12" fill="#DCFCE7" stroke="#86EFAC"/>
+<text x="940.0" y="418" font-size="11.5" fill="#15803D" font-weight="700" text-anchor="middle">lo tiene: responde</text>
+<rect x="1052" y="190" width="180" height="170" rx="12" fill="#ffffff" stroke="#E2E8F0" stroke-width="1.3" filter="url(#sombra)"/>
+<rect x="1064" y="202" width="40" height="40" rx="10" fill="#DCFCE7" stroke="none" stroke-width="0"/>
+<use href="#b-upstash" x="1072.0" y="210.0" width="24" height="24" fill="#00C98D"/>
+<text x="1064" y="264" font-size="14.5" fill="#0F172A" font-weight="700" text-anchor="start">Upstash Redis</text>
+<text x="1064" y="285.0" font-size="12" fill="#475569" font-weight="400" text-anchor="start">disponibilidad del día</text>
+<text x="1064" y="301.5" font-size="12" fill="#475569" font-weight="400" text-anchor="start">por cancha</text>
+<text x="1064" y="318.0" font-size="12" fill="#475569" font-weight="400" text-anchor="start">dura: 1–2 s</text>
+<text x="1064" y="334.5" font-size="12" fill="#475569" font-weight="400" text-anchor="start">se borra al reservar</text>
+<rect x="1161.34" y="180" width="60.66" height="20" rx="10.0" fill="#DBEAFE" stroke="#ffffff" stroke-width="1.5"/>
+<text x="1191.6699999999998" y="193.5" font-size="11" fill="#1D4ED8" font-weight="700" text-anchor="middle">caché 5</text>
+<path d="M1234 230 L1251 230" fill="none" stroke="#E8590C" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#m-E8590C)"/>
+<path d="M1142.0 362 L1142.0 400" fill="none" stroke="#16A34A" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#m-16A34A)"/>
+<rect x="1084.0" y="402" width="116" height="24" rx="12" fill="#DCFCE7" stroke="#86EFAC"/>
+<text x="1142.0" y="418" font-size="11.5" fill="#15803D" font-weight="700" text-anchor="middle">lo tiene: responde</text>
+<rect x="1254" y="190" width="180" height="170" rx="12" fill="#ffffff" stroke="#E2E8F0" stroke-width="1.3" filter="url(#sombra)"/>
+<rect x="1266" y="202" width="40" height="40" rx="10" fill="#FFEDD5" stroke="none" stroke-width="0"/>
+<use href="#g-plug" x="1274.0" y="210.0" width="24" height="24" color="#C2410C"/>
+<text x="1266" y="264" font-size="14.5" fill="#0F172A" font-weight="700" text-anchor="start">Hyperdrive</text>
+<text x="1266" y="285.0" font-size="12" fill="#475569" font-weight="400" text-anchor="start">reúsa conexiones</text>
+<text x="1266" y="301.5" font-size="12" fill="#475569" font-weight="400" text-anchor="start">su caché de consultas</text>
+<text x="1266" y="318.0" font-size="12" fill="#475569" font-weight="400" text-anchor="start">va apagada: la</text>
+<text x="1266" y="334.5" font-size="12" fill="#475569" font-weight="400" text-anchor="start">frescura la da Redis</text>
+<rect x="1369.72" y="180" width="54.279999999999994" height="20" rx="10.0" fill="#EDE9FE" stroke="#ffffff" stroke-width="1.5"/>
+<text x="1396.8600000000001" y="193.5" font-size="11" fill="#6D28D9" font-weight="700" text-anchor="middle">bal. 4</text>
+<path d="M1436 230 L1453 230" fill="none" stroke="#E8590C" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#m-E8590C)"/>
+<rect x="1456" y="190" width="180" height="170" rx="12" fill="#ffffff" stroke="#E2E8F0" stroke-width="1.3" filter="url(#sombra)"/>
+<rect x="1468" y="202" width="40" height="40" rx="10" fill="#DCFCE7" stroke="none" stroke-width="0"/>
+<use href="#b-neon" x="1476.0" y="210.0" width="24" height="24" fill="#1A9E6E"/>
+<text x="1468" y="264" font-size="14.5" fill="#0F172A" font-weight="700" text-anchor="start">Neon réplica</text>
+<text x="1468" y="285.0" font-size="12" fill="#475569" font-weight="400" text-anchor="start">lecturas, reportes</text>
+<text x="1468" y="301.5" font-size="12" fill="#475569" font-weight="400" text-anchor="start">y dashboards</text>
+<text x="1468" y="318.0" font-size="12" fill="#475569" font-weight="400" text-anchor="start">retraso típico: &lt; 1 s</text>
+<text x="1468" y="334.5" font-size="12" fill="#475569" font-weight="400" text-anchor="start">en desarrollo: primario</text>
+<rect x="1571.72" y="180" width="54.279999999999994" height="20" rx="10.0" fill="#EDE9FE" stroke="#ffffff" stroke-width="1.5"/>
+<text x="1598.8600000000001" y="193.5" font-size="11" fill="#6D28D9" font-weight="700" text-anchor="middle">bal. 5</text>
+<path d="M1546.0 362 L1546.0 400" fill="none" stroke="#16A34A" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#m-16A34A)"/>
+<rect x="1488.0" y="402" width="116" height="24" rx="12" fill="#DCFCE7" stroke="#86EFAC"/>
+<text x="1546.0" y="418" font-size="11.5" fill="#15803D" font-weight="700" text-anchor="middle">lo tiene: responde</text>
+<text x="60" y="465" font-size="13.5" fill="#B91C1C" font-weight="800" text-anchor="start">Regla de oro:</text>
+<text x="160" y="465" font-size="13.5" fill="#0F172A" font-weight="600" text-anchor="start">el precio final, la reserva confirmada y el estado de un pago nunca salen de caché 1 a 4: se leen o escriben en el primario.</text>
+<text x="160" y="485" font-size="12.5" fill="#475569" font-weight="400" text-anchor="start">Caché 5 (Redis) solo acelera el mapa; al crear la reserva manda el bloqueo de Redis y la regla EXCLUDE de PostgreSQL.</text>
+<rect x="40" y="550" width="1600" height="290" rx="18" fill="#FFFBF7" stroke="#E8590C" stroke-width="1.6"/>
+<rect x="60" y="535" width="449.0" height="30" rx="15" fill="#ffffff" stroke="#E8590C" stroke-width="1.6"/>
+<text x="284.5" y="555.5" font-size="15" fill="#0F172A" font-weight="800" text-anchor="middle">B · Escritura: «reservo la cancha 3 a las 7 pm»</text>
+<rect x="60" y="600" width="232" height="120" rx="12" fill="#ffffff" stroke="#E2E8F0" stroke-width="1.3" filter="url(#sombra)"/>
+<rect x="72" y="612" width="40" height="40" rx="10" fill="#F1F5F9" stroke="none" stroke-width="0"/>
+<use href="#g-user" x="80.0" y="620.0" width="24" height="24" color="#0F172A"/>
+<text x="124" y="631" font-size="15" fill="#0F172A" font-weight="700" text-anchor="start">Cliente</text>
+<text x="124" y="650" font-size="12.5" fill="#475569" font-weight="400" text-anchor="start">pulsa Reservar</text>
+<text x="124" y="667" font-size="12.5" fill="#475569" font-weight="400" text-anchor="start">en el mapa</text>
+<circle cx="74" cy="598" r="13" fill="#E8590C" stroke="#ffffff" stroke-width="2.5"/>
+<text x="74" y="602.6" font-size="13.5" fill="#ffffff" font-weight="800" text-anchor="middle">1</text>
+<path d="M294 660 L324 660" fill="none" stroke="#E8590C" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#m-E8590C)"/>
+<rect x="327" y="600" width="232" height="120" rx="12" fill="#ffffff" stroke="#E2E8F0" stroke-width="1.3" filter="url(#sombra)"/>
+<rect x="339" y="612" width="40" height="40" rx="10" fill="#FFEDD5" stroke="none" stroke-width="0"/>
+<use href="#b-cloudflare" x="347.0" y="620.0" width="24" height="24" fill="#F38020"/>
+<text x="391" y="631" font-size="15" fill="#0F172A" font-weight="700" text-anchor="start">Borde + balanceador</text>
+<text x="391" y="650" font-size="12.5" fill="#475569" font-weight="400" text-anchor="start">WAF y límite por IP</text>
+<text x="391" y="667" font-size="12.5" fill="#475569" font-weight="400" text-anchor="start">envía a un back sano</text>
+<circle cx="341" cy="598" r="13" fill="#E8590C" stroke="#ffffff" stroke-width="2.5"/>
+<text x="341" y="602.6" font-size="13.5" fill="#ffffff" font-weight="800" text-anchor="middle">2</text>
+<path d="M561 660 L591 660" fill="none" stroke="#E8590C" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#m-E8590C)"/>
+<rect x="594" y="600" width="232" height="120" rx="12" fill="#ffffff" stroke="#E2E8F0" stroke-width="1.3" filter="url(#sombra)"/>
+<rect x="606" y="612" width="40" height="40" rx="10" fill="#FFEDD5" stroke="none" stroke-width="0"/>
+<use href="#b-hono" x="614.0" y="620.0" width="24" height="24" fill="#E36002"/>
+<text x="658" y="631" font-size="15" fill="#0F172A" font-weight="700" text-anchor="start">Back</text>
+<text x="658" y="650" font-size="12.5" fill="#475569" font-weight="400" text-anchor="start">valida datos</text>
+<text x="658" y="667" font-size="12.5" fill="#475569" font-weight="400" text-anchor="start">y tarifa vigente</text>
+<circle cx="608" cy="598" r="13" fill="#E8590C" stroke="#ffffff" stroke-width="2.5"/>
+<text x="608" y="602.6" font-size="13.5" fill="#ffffff" font-weight="800" text-anchor="middle">3</text>
+<path d="M828 660 L858 660" fill="none" stroke="#E8590C" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#m-E8590C)"/>
+<rect x="861" y="600" width="232" height="120" rx="12" fill="#ffffff" stroke="#E2E8F0" stroke-width="1.3" filter="url(#sombra)"/>
+<rect x="873" y="612" width="40" height="40" rx="10" fill="#DCFCE7" stroke="none" stroke-width="0"/>
+<use href="#b-upstash" x="881.0" y="620.0" width="24" height="24" fill="#00C98D"/>
+<text x="925" y="631" font-size="15" fill="#0F172A" font-weight="700" text-anchor="start">Redis · bloqueo</text>
+<text x="925" y="650" font-size="12.5" fill="#475569" font-weight="400" text-anchor="start">SET NX por 300 s</text>
+<text x="925" y="667" font-size="12.5" fill="#475569" font-weight="400" text-anchor="start">si existe → 409</text>
+<circle cx="875" cy="598" r="13" fill="#E8590C" stroke="#ffffff" stroke-width="2.5"/>
+<text x="875" y="602.6" font-size="13.5" fill="#ffffff" font-weight="800" text-anchor="middle">4</text>
+<path d="M1095 660 L1125 660" fill="none" stroke="#E8590C" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#m-E8590C)"/>
+<rect x="1128" y="600" width="232" height="120" rx="12" fill="#ffffff" stroke="#E2E8F0" stroke-width="1.3" filter="url(#sombra)"/>
+<rect x="1140" y="612" width="66" height="40" rx="10" fill="#DCFCE7" stroke="none" stroke-width="0"/>
+<use href="#b-neon" x="1148" y="622.0" width="20" height="20" fill="#1A9E6E"/>
+<use href="#b-postgresql" x="1174" y="622.0" width="20" height="20" fill="#4169E1"/>
+<text x="1218" y="631" font-size="15" fill="#0F172A" font-weight="700" text-anchor="start">Neon primario</text>
+<text x="1218" y="650" font-size="12.5" fill="#475569" font-weight="400" text-anchor="start">INSERT HOLD</text>
+<text x="1218" y="667" font-size="12.5" fill="#475569" font-weight="400" text-anchor="start">EXCLUDE: sin choques</text>
+<circle cx="1142" cy="598" r="13" fill="#E8590C" stroke="#ffffff" stroke-width="2.5"/>
+<text x="1142" y="602.6" font-size="13.5" fill="#ffffff" font-weight="800" text-anchor="middle">5</text>
+<path d="M1362 660 L1392 660" fill="none" stroke="#E8590C" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#m-E8590C)"/>
+<rect x="1395" y="600" width="232" height="120" rx="12" fill="#ffffff" stroke="#E2E8F0" stroke-width="1.3" filter="url(#sombra)"/>
+<rect x="1407" y="612" width="40" height="40" rx="10" fill="#EDE9FE" stroke="none" stroke-width="0"/>
+<use href="#g-radio" x="1415.0" y="620.0" width="24" height="24" color="#6D28D9"/>
+<text x="1459" y="631" font-size="15" fill="#0F172A" font-weight="700" text-anchor="start">Avisar a todos</text>
+<text x="1459" y="650" font-size="12.5" fill="#475569" font-weight="400" text-anchor="start">borra caché 5 del día</text>
+<text x="1459" y="667" font-size="12.5" fill="#475569" font-weight="400" text-anchor="start">mapa en amarillo</text>
+<circle cx="1409" cy="598" r="13" fill="#E8590C" stroke="#ffffff" stroke-width="2.5"/>
+<text x="1409" y="602.6" font-size="13.5" fill="#ffffff" font-weight="800" text-anchor="middle">6</text>
+<path d="M1236 722 L1236 765 L890 765 L890 722" fill="none" stroke="#B91C1C" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="7 5" marker-end="url(#m-B91C1C)"/>
+<text x="1077" y="785" font-size="12" fill="#B91C1C" font-weight="700" text-anchor="middle">si otro ya lo separó: 409 «ese horario se está reservando»</text>
+<text x="60" y="815" font-size="12.5" fill="#475569" font-weight="400" text-anchor="start" font-style="italic">Dos candados: Redis frena al segundo usuario en milisegundos; PostgreSQL (EXCLUDE USING gist) hace imposible guardar dos reservas que se crucen, aunque Redis falle.</text>
+<rect x="40" y="880" width="1600" height="230" rx="18" fill="#FAF8FF" stroke="#7C3AED" stroke-width="1.6"/>
+<rect x="60" y="865" width="287.0" height="30" rx="15" fill="#ffffff" stroke="#7C3AED" stroke-width="1.6"/>
+<text x="203.5" y="885.5" font-size="15" fill="#0F172A" font-weight="800" text-anchor="middle">C · Los 5 niveles de balanceo</text>
+<rect x="60" y="925" width="290" height="140" rx="12" fill="#ffffff" stroke="#E2E8F0" stroke-width="1.3" filter="url(#sombra)"/>
+<rect x="72" y="937" width="40" height="40" rx="10" fill="#EDE9FE" stroke="none" stroke-width="0"/>
+<use href="#b-cloudflare" x="80.0" y="945.0" width="24" height="24" fill="#F38020"/>
+<text x="124" y="956" font-size="15" fill="#0F172A" font-weight="700" text-anchor="start">1 · Red anycast</text>
+<text x="124" y="975" font-size="12.5" fill="#475569" font-weight="400" text-anchor="start">cada usuario llega al</text>
+<text x="124" y="992" font-size="12.5" fill="#475569" font-weight="400" text-anchor="start">centro de datos más</text>
+<text x="124" y="1009" font-size="12.5" fill="#475569" font-weight="400" text-anchor="start">cercano (Lima, Santiago…)</text>
+<rect x="285.72" y="915" width="54.279999999999994" height="20" rx="10.0" fill="#DCFCE7" stroke="#ffffff" stroke-width="1.5"/>
+<text x="312.86" y="928.5" font-size="11" fill="#15803D" font-weight="700" text-anchor="middle">gratis</text>
+<path d="M352 995 L377 995" fill="none" stroke="#7C3AED" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#m-7C3AED)"/>
+<rect x="380" y="925" width="290" height="140" rx="12" fill="#ffffff" stroke="#E2E8F0" stroke-width="1.3" filter="url(#sombra)"/>
+<rect x="392" y="937" width="40" height="40" rx="10" fill="#EDE9FE" stroke="none" stroke-width="0"/>
+<use href="#g-split" x="400.0" y="945.0" width="24" height="24" color="#6D28D9"/>
+<text x="444" y="956" font-size="15" fill="#0F172A" font-weight="700" text-anchor="start">2 · Load Balancer</text>
+<text x="444" y="975" font-size="12.5" fill="#475569" font-weight="400" text-anchor="start">reparte entre orígenes</text>
+<text x="444" y="992" font-size="12.5" fill="#475569" font-weight="400" text-anchor="start">y salta al respaldo si</text>
+<text x="444" y="1009" font-size="12.5" fill="#475569" font-weight="400" text-anchor="start">falla el chequeo de salud</text>
+<rect x="586.58" y="915" width="73.41999999999999" height="20" rx="10.0" fill="#FFEDD5" stroke="#ffffff" stroke-width="1.5"/>
+<text x="623.2900000000001" y="928.5" font-size="11" fill="#C2410C" font-weight="700" text-anchor="middle">pago demo</text>
+<path d="M672 995 L697 995" fill="none" stroke="#7C3AED" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#m-7C3AED)"/>
+<rect x="700" y="925" width="290" height="140" rx="12" fill="#ffffff" stroke="#E2E8F0" stroke-width="1.3" filter="url(#sombra)"/>
+<rect x="712" y="937" width="40" height="40" rx="10" fill="#EDE9FE" stroke="none" stroke-width="0"/>
+<use href="#b-cloudflareworkers" x="720.0" y="945.0" width="24" height="24" fill="#F38020"/>
+<text x="764" y="956" font-size="15" fill="#0F172A" font-weight="700" text-anchor="start">3 · Workers</text>
+<text x="764" y="975" font-size="12.5" fill="#475569" font-weight="400" text-anchor="start">Cloudflare crea más</text>
+<text x="764" y="992" font-size="12.5" fill="#475569" font-weight="400" text-anchor="start">instancias solas cuando</text>
+<text x="764" y="1009" font-size="12.5" fill="#475569" font-weight="400" text-anchor="start">sube el tráfico</text>
+<rect x="925.72" y="915" width="54.279999999999994" height="20" rx="10.0" fill="#DCFCE7" stroke="#ffffff" stroke-width="1.5"/>
+<text x="952.86" y="928.5" font-size="11" fill="#15803D" font-weight="700" text-anchor="middle">gratis</text>
+<path d="M992 995 L1017 995" fill="none" stroke="#7C3AED" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#m-7C3AED)"/>
+<rect x="1020" y="925" width="290" height="140" rx="12" fill="#ffffff" stroke="#E2E8F0" stroke-width="1.3" filter="url(#sombra)"/>
+<rect x="1032" y="937" width="40" height="40" rx="10" fill="#EDE9FE" stroke="none" stroke-width="0"/>
+<use href="#g-plug" x="1040.0" y="945.0" width="24" height="24" color="#6D28D9"/>
+<text x="1084" y="956" font-size="15" fill="#0F172A" font-weight="700" text-anchor="start">4 · Hyperdrive</text>
+<text x="1084" y="975" font-size="12.5" fill="#475569" font-weight="400" text-anchor="start">miles de peticiones</text>
+<text x="1084" y="992" font-size="12.5" fill="#475569" font-weight="400" text-anchor="start">comparten pocas</text>
+<text x="1084" y="1009" font-size="12.5" fill="#475569" font-weight="400" text-anchor="start">conexiones a Neon</text>
+<rect x="1245.72" y="915" width="54.279999999999994" height="20" rx="10.0" fill="#DCFCE7" stroke="#ffffff" stroke-width="1.5"/>
+<text x="1272.8600000000001" y="928.5" font-size="11" fill="#15803D" font-weight="700" text-anchor="middle">gratis</text>
+<path d="M1312 995 L1337 995" fill="none" stroke="#7C3AED" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#m-7C3AED)"/>
+<rect x="1340" y="925" width="290" height="140" rx="12" fill="#ffffff" stroke="#E2E8F0" stroke-width="1.3" filter="url(#sombra)"/>
+<rect x="1352" y="937" width="40" height="40" rx="10" fill="#EDE9FE" stroke="none" stroke-width="0"/>
+<use href="#b-neon" x="1360.0" y="945.0" width="24" height="24" fill="#1A9E6E"/>
+<text x="1404" y="956" font-size="15" fill="#0F172A" font-weight="700" text-anchor="start">5 · Neon + réplica</text>
+<text x="1404" y="975" font-size="12.5" fill="#475569" font-weight="400" text-anchor="start">escrituras al primario</text>
+<text x="1404" y="992" font-size="12.5" fill="#475569" font-weight="400" text-anchor="start">lecturas a la réplica</text>
+<text x="1404" y="1009" font-size="12.5" fill="#475569" font-weight="400" text-anchor="start">(2.ª réplica si k6 lo pide)</text>
+<rect x="1546.58" y="915" width="73.41999999999999" height="20" rx="10.0" fill="#FFEDD5" stroke="#ffffff" stroke-width="1.5"/>
+<text x="1583.29" y="928.5" font-size="11" fill="#C2410C" font-weight="700" text-anchor="middle">pago demo</text>
+<text x="40" y="1145" font-size="11.5" fill="#94A3B8" font-weight="400" text-anchor="start">Tiempos y retrasos son referencias de los proveedores; se confirman con la prueba de carga (k6). Logos: Simple Icons.</text>
+</svg>

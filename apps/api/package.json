@@ -1,0 +1,18 @@
+{
+  "name": "@pichangaflow/api",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev --port 8787",
+    "tipos": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@hono/zod-openapi": "^1.6.3",
+    "@pichangaflow/shared": "*",
+    "hono": "^4.13.16",
+    "postgres": "^3",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": { "wrangler": "^4.157.0" }
+}

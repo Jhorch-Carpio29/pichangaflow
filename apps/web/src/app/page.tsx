@@ -1,69 +1,80 @@
-import Image from "next/image";
+import { ArrowRight, CalendarCheck, ChartColumn, ScanLine, ShoppingCart, Wallet, Zap, type LucideIcon } from "lucide-react";
+import { Logo } from "@/components/marca/logo";
+import { FondoAnimado } from "@/components/portada/fondo-animado";
+import { MapaEnVivo } from "@/components/portada/mapa-en-vivo";
+import { Boton } from "@/components/ui/boton";
+import { Tarjeta } from "@/components/ui/tarjeta";
 
-export default function Home() {
+type Funcion = { titulo: string; descripcion: string; icono: LucideIcon };
+
+const FUNCIONES: readonly Funcion[] = [
+  { titulo: "Reservas sin cruces", descripcion: "Mapa de canchas en vivo. Dos personas nunca reservan el mismo horario.", icono: CalendarCheck },
+  { titulo: "Pagos ordenados", descripcion: "Yape y Plin con captura, verificados por tu cajero en un clic.", icono: Wallet },
+  { titulo: "Tienda e inventario", descripcion: "Vende bebidas y snacks con carrito y controla tu stock al instante.", icono: ShoppingCart },
+  { titulo: "Eventos y conciertos", descripcion: "Alquila por días y controla las entradas con código QR.", icono: ScanLine },
+  { titulo: "Todo sincronizado", descripcion: "Lo que hace un rol aparece en los demás paneles en menos de un segundo.", icono: Zap },
+  { titulo: "Decisiones con datos", descripcion: "Ingresos, ocupación y productos más vendidos en un solo panel.", icono: ChartColumn },
+];
+
+export default function PaginaInicio() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert h-5 w-[100px]"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the{" "}
-            <code className="rounded bg-black/[.06] px-1.5 py-0.5 font-mono text-[0.9em] dark:bg-white/[.08]">
-              page.tsx
-            </code>{" "}
-            file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert h-[14px] w-4"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={14}
-            />
-            Deploy Now
+    <div className="flex min-h-dvh flex-col">
+      <div className="zona-oscura relative isolate overflow-hidden bg-menu">
+        <FondoAnimado />
+
+        <header className="relative mx-auto flex h-18 w-full max-w-6xl items-center justify-between px-4 sm:px-6">
+          <Logo claro />
+          <a href="#funciones" className="text-sm font-medium text-menu-texto transition-colors hover:text-white">
+            Funciones
           </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+        </header>
+
+        <section className="relative mx-auto grid w-full max-w-6xl items-center gap-12 px-4 pt-12 pb-20 sm:px-6 lg:grid-cols-2 lg:pt-24 lg:pb-36">
+          <div>
+            <h1 className="aparecer text-4xl leading-tight font-semibold text-white sm:text-5xl">
+              Tu complejo deportivo, en orden y <span className="text-marca-brillo">en tiempo real</span>
+            </h1>
+            <p className="aparecer aparecer-2 mt-5 max-w-lg text-lg leading-relaxed text-menu-texto">
+              Reservas, pagos, tienda, eventos y cochera en una sola plataforma para tu equipo y tus clientes.
+            </p>
+            <div className="aparecer aparecer-3 mt-8">
+              <Boton comoHijo tamano="lg" variante="brillante">
+                <a href="#funciones">
+                  Conoce las funciones
+                  <ArrowRight />
+                </a>
+              </Boton>
+            </div>
+          </div>
+
+          <div className="aparecer aparecer-3">
+            <MapaEnVivo />
+          </div>
+        </section>
+      </div>
+
+      <main id="funciones" className="mx-auto w-full max-w-6xl flex-1 scroll-mt-6 px-4 py-16 sm:px-6">
+        <h2 className="text-3xl font-semibold text-texto">Todo lo que tu complejo necesita</h2>
+        <p className="mt-2 max-w-xl text-texto-suave">Cada persona de tu equipo tiene su panel, con lo justo para hacer su trabajo.</p>
+        <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          {FUNCIONES.map(({ titulo, descripcion, icono: Icono }) => (
+            <Tarjeta key={titulo} className="p-6 transition duration-200 hover:-translate-y-1 hover:border-marca/40 hover:shadow-elevada">
+              <span className="grid size-10 place-items-center rounded-control bg-marca-suave text-marca">
+                <Icono className="size-5" aria-hidden="true" />
+              </span>
+              <h3 className="mt-4 text-base font-semibold text-texto">{titulo}</h3>
+              <p className="mt-1.5 text-sm leading-relaxed text-texto-suave">{descripcion}</p>
+            </Tarjeta>
+          ))}
         </div>
       </main>
+
+      <footer className="border-t border-borde bg-superficie">
+        <div className="mx-auto flex w-full max-w-6xl items-center justify-between gap-4 px-4 py-6 sm:px-6">
+          <Logo />
+          <p className="text-sm text-texto-suave">Hecho en Perú</p>
+        </div>
+      </footer>
     </div>
   );
 }

@@ -1,26 +1,223 @@
 @import "tailwindcss";
 
+/* Definición única del diseño. Las pantallas usan estos nombres, nunca colores sueltos. */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --fondo: #f4f6f5;
+  --superficie: #ffffff;
+  --superficie-suave: #f8faf9;
+  --borde: #e2e8e5;
+  --borde-fuerte: #c6d0cc;
+  --texto: #11211d;
+  --texto-suave: #55665f;
+
+  --marca: #00875a;
+  --marca-fuerte: #006b47;
+  --marca-suave: #dcf7ea;
+  --marca-brillo: #2ee89f;
+
+  --menu: #051c17;
+  --menu-elevado: #0d3229;
+  --menu-borde: #174238;
+  --menu-texto: #c4d3ce;
+
+  --lateral: #0a7b57;
+  --lateral-fondo: #045a41;
+  --lateral-borde: rgb(255 255 255 / 0.16);
+  --lateral-hover: rgb(255 255 255 / 0.12);
+  --lateral-texto: #eefaf4;
+  --lateral-suave: #d6f3e6;
+  --lateral-acento: #b9f7dc;
+
+  --exito: #007a51;
+  --exito-suave: #dcf7ea;
+  --aviso: #8a5300;
+  --aviso-suave: #fcf1da;
+  --error: #b42318;
+  --error-suave: #fdebe9;
+  --info: #1b5da6;
+  --info-suave: #e6effa;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-fondo: var(--fondo);
+  --color-superficie: var(--superficie);
+  --color-superficie-suave: var(--superficie-suave);
+  --color-borde: var(--borde);
+  --color-borde-fuerte: var(--borde-fuerte);
+  --color-texto: var(--texto);
+  --color-texto-suave: var(--texto-suave);
+  --color-marca: var(--marca);
+  --color-marca-fuerte: var(--marca-fuerte);
+  --color-marca-suave: var(--marca-suave);
+  --color-marca-brillo: var(--marca-brillo);
+  --color-menu: var(--menu);
+  --color-menu-elevado: var(--menu-elevado);
+  --color-menu-borde: var(--menu-borde);
+  --color-menu-texto: var(--menu-texto);
+  --color-lateral-borde: var(--lateral-borde);
+  --color-lateral-hover: var(--lateral-hover);
+  --color-lateral-texto: var(--lateral-texto);
+  --color-lateral-suave: var(--lateral-suave);
+  --color-lateral-acento: var(--lateral-acento);
+  --color-exito: var(--exito);
+  --color-exito-suave: var(--exito-suave);
+  --color-aviso: var(--aviso);
+  --color-aviso-suave: var(--aviso-suave);
+  --color-error: var(--error);
+  --color-error-suave: var(--error-suave);
+  --color-info: var(--info);
+  --color-info-suave: var(--info-suave);
+
+  --font-sans: var(--fuente-texto);
+  --font-titulo: var(--fuente-titulo);
+
+  --radius-control: 0.5rem;
+  --radius-tarjeta: 0.875rem;
+
+  --shadow-tarjeta: 0 1px 2px rgb(17 33 29 / 0.05), 0 1px 3px rgb(17 33 29 / 0.04);
+  --shadow-elevada: 0 12px 32px rgb(17 33 29 / 0.16);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    background: var(--fondo);
+    color: var(--texto);
+    font-family: var(--font-sans);
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-titulo);
+    letter-spacing: -0.015em;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--marca);
+    outline-offset: 2px;
+  }
+
+  .zona-oscura :focus-visible {
+    outline-color: var(--marca-brillo);
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* Fondo del menú lateral: verde vivo con un brillo suave arriba. */
+.fondo-lateral {
+  background:
+    radial-gradient(circle at 100% 0, rgb(46 232 159 / 0.2), transparent 42%),
+    linear-gradient(180deg, var(--lateral), var(--lateral-fondo));
+}
+
+/* Barra de desplazamiento discreta para el menú lateral. */
+.barra-fina {
+  scrollbar-width: thin;
+  scrollbar-color: var(--lateral-borde) transparent;
+}
+
+/* Movimiento de la portada. */
+.aurora {
+  position: absolute;
+  border-radius: 9999px;
+  filter: blur(90px);
+  will-change: transform;
+}
+
+.aurora-uno {
+  top: -12rem;
+  right: -6rem;
+  width: 38rem;
+  height: 38rem;
+  background: rgb(0 200 130 / 0.38);
+  animation: flotar-uno 16s ease-in-out infinite alternate;
+}
+
+.aurora-dos {
+  bottom: -16rem;
+  left: 22%;
+  width: 34rem;
+  height: 34rem;
+  background: rgb(46 232 159 / 0.2);
+  animation: flotar-dos 20s ease-in-out infinite alternate;
+}
+
+.pase {
+  stroke-dasharray: 90 900;
+  animation: recorrer-pase 6s linear infinite;
+}
+
+.pase-lento {
+  animation-duration: 9s;
+  animation-delay: -3s;
+}
+
+.aparecer {
+  animation: aparecer 0.8s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+
+.aparecer-2 {
+  animation-delay: 0.12s;
+}
+
+.aparecer-3 {
+  animation-delay: 0.24s;
+}
+
+.latido {
+  animation: latido 1.8s ease-out infinite;
+}
+
+@keyframes flotar-uno {
+  to {
+    transform: translate(-9rem, 6rem) scale(1.15);
+  }
+}
+
+@keyframes flotar-dos {
+  to {
+    transform: translate(11rem, -5rem) scale(1.2);
+  }
+}
+
+@keyframes recorrer-pase {
+  from {
+    stroke-dashoffset: 990;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes aparecer {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+}
+
+@keyframes latido {
+  from {
+    box-shadow: 0 0 0 0 rgb(46 232 159 / 0.6);
+  }
+  to {
+    box-shadow: 0 0 0 10px rgb(46 232 159 / 0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .solo-con-movimiento {
+    display: none;
+  }
+
+  *,
+  ::before,
+  ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
 }

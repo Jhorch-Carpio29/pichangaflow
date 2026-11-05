@@ -1,3 +1,3 @@
 # packages/shared
 
-Tipos y esquemas de validación compartidos entre `apps/web` y `apps/api`.
+Tipos, esquemas de validación y formato peruano (soles, fechas y horas) compartidos entre `apps/web` y `apps/api`.

@@ -9,4 +9,8 @@ Arquitectura limpia en cuatro capas. Regla: las dependencias solo apuntan hacia 
 | `src/infrastructure/` | Adaptadores: Neon, Redis, IA de Cloudflare, correo, WhatsApp, consulta de DNI, pagos | `application`, `domain` |
 | `src/interface/` | Rutas HTTP, tiempo real y validación de entrada | `application` |
 
+`src/index.ts` es el punto de entrada y el único lugar que une las capas. `npm run capas` falla si alguien rompe la regla.
+
+Las claves locales van en `.dev.vars`, que está fuera de git. Usa `.dev.vars.example` como guía.
+
 Las pruebas de este back viven en `tests/` (ver `tests/README.md`).

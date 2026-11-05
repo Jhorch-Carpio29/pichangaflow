@@ -1,0 +1,30 @@
+{
+  "name": "pichangaflow",
+  "version": "0.1.0",
+  "private": true,
+  "engines": { "node": ">=24" },
+  "workspaces": ["apps/*", "packages/*"],
+  "scripts": {
+    "dev": "concurrently -k -n api,web -c green,cyan \"npm run dev -w @pichangaflow/api\" \"npm run dev -w @pichangaflow/web\"",
+    "build": "npm run build -w @pichangaflow/web",
+    "lint": "eslint .",
+    "tipos": "npm run tipos --workspaces --if-present && tsc --noEmit",
+    "capas": "depcruise apps/api/src --config .dependency-cruiser.cjs",
+    "verificar": "npm run lint && npm run tipos && npm run capas",
+    "test:unit": "vitest run --project unitarias --coverage",
+    "test:integracion": "vitest run --project integracion",
+    "test:e2e": "playwright test"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.14.0",
+    "@playwright/test": "^1.64.1",
+    "@types/node": "^24",
+    "@vitest/coverage-v8": "^5.1.0",
+    "concurrently": "^10.0.6",
+    "dependency-cruiser": "^18.7.2",
+    "eslint": "^9",
+    "eslint-config-next": "16.4.5",
+    "typescript": "^5",
+    "vitest": "^5.1.0"
+  }
+}

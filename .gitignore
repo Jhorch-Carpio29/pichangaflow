@@ -44,3 +44,7 @@ next-env.d.ts
 .wrangler/
 .open-next/
 .dev.vars*
+
+# pruebas end-to-end
+playwright-report/
+test-results/
